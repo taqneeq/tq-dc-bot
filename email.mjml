@@ -34,7 +34,7 @@
           A few event details:
         </mj-text>
 
-          <mj-text><strong>Duration:</strong> 15th 6 pm to 16th 12 pm</mj-text>
+          <mj-text><strong>Duration:</strong> </mj-text>
 
           <mj-text><strong>Your Team ID:</strong> {{team_no}}</mj-text>
 
