@@ -1,0 +1,59 @@
+<mjml>
+  <mj-head>
+    <mj-attributes>
+      <mj-all font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace" />
+
+      <mj-button border-radius="4px" font-weight="600" padding="12px 20px" />
+
+      <mj-text font-size="14px" line-height="24px" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <mj-section padding="40px 0">
+      <mj-column>
+
+        <mj-image width="150px" src="https://cybercypher.taqneeqfest.com/CClogo.png" alt="Cyber Cypher 5.0" padding="12px 0" />
+
+        <mj-text font-size="24px" font-weight="400" align="center" color="#000000">
+          Welcome to <strong>Cyber Cypher 5.0</strong>
+        </mj-text>
+
+        <mj-text font-size="18px" color="#FF6600" align="center" padding="16px 0">
+          <strong>Hello {{name}}</strong>
+        </mj-text>
+
+        <mj-text color="#000000" padding="16px 0">
+          Here's your invite link to join our Discord server for the event! This server will be your space to collaborate with teammates, ask us any questions, or just hang out when you need a break. Wishing you all the best for the hackathon! Note this link is unique to you, and can be used only once.
+        </mj-text>
+
+        <mj-button background-color="#FF6600" color="#FFFFFF" href="{{invite_link}}" align="center">
+          Discord Link
+        </mj-button>
+
+        <mj-text font-weight="bold" padding="16px 0">
+          A few event details:
+        </mj-text>
+
+          <mj-text><strong>Duration:</strong> 15th 6 pm to 16th 12 pm</mj-text>
+
+          <mj-text><strong>Your Team ID:</strong> {{team_no}}</mj-text>
+
+          <mj-text>You are expected to be on the Discord server, it serves as the primary space for collaborating with your teammates, accessing the chill voice channel whenever you need a break, and asking us any questions.</mj-text>
+
+          <mj-text>Further Instructions about the event will be communicated through Discord.</mj-text>
+
+        <mj-text padding="16px 0">
+          Any questions? Reach out to
+          <a href="https://api.whatsapp.com/send?phone=918850969672&text=Hi%20there%2C%20I%20had%20some%20queries%20about%20Cyber%20Cypher!" style="color:#FF6600; text-decoration:none;">Siddhi Gandhi</a> or
+          <a href="https://api.whatsapp.com/send?phone=919594939388&text=Hi%20there%2C%20I%20had%20some%20queries%20about%20Cyber%20Cypher!" style="color:#FF6600; text-decoration:none;">Shriyyan Suresh</a>
+        </mj-text>
+
+        <mj-text padding="16px 0">
+          Best regards,<br />
+          Team Taqneeq
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
