@@ -1,4 +1,5 @@
 venv
 temp
 .env
-tq-part.xlsx
+*.csv
+*.db
